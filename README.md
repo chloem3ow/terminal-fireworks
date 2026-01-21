@@ -7,9 +7,9 @@ A simple python script which displays fireworks in your terminal.
 ![Fireworks Terminal Gif](images/kitty.gif)
 
 ## Features
-- Fireworks follow projectile motion
-- Customisable parameters (see [Command Line Options](#command-line-options))
-- Responsive to terminal resizing 
+- Fireworks follow real projectile motion
+- Customisable physics parameters (see [Command Line Options](#command-line-options))
+- Responsive to terminal resizing (sort of)
 - Uses existing terminal color config
 
 ## Requirements
