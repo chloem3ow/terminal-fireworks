@@ -2,9 +2,9 @@
 A simple python script which displays fireworks in your terminal.
 
 ## Showcase
-GIF GOES HERE
-ANOTHER ONE
-ANOTHER ONE
+![Fireworks Terminal Gif](images/fireworks.gif)
+
+![Fireworks Terminal Gif](images/kitty.gif)
 
 ## Features
 - Fireworks follow real projectile motion
