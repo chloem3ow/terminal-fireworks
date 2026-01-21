@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "terminal-fireworks"
-version = 0.1.0"
+version = "0.1.0"
 description = "A fireworks display for the terminal"
 authors = [{name = "chloem3ow"}] 
 readme = "README.md"
