@@ -49,7 +49,7 @@ Run `fireworks` in your terminal.
   - `--delta-v` Sets how much the rocket can accelerate (default: 3.0)
 
   ## Licence
-  Distributed under MIT licence. See [LISENCE](LISENCE) for more details.
+  Distributed under MIT licence. See [LICENSE](LICENSE) for more details.
 
   ## Acknowledgements
   Inspired largely by [terminal-rain](https://github.com/rmaake1/terminal-rain-lightning).
