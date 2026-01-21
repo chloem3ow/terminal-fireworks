@@ -24,3 +24,6 @@ fireworks = "fireworks:main"
 
 [project.urls]
 Homepage = "https://github.com/chloem3ow/terminal-fireworks"
+
+[tool.setuptools]
+py-modules = ["fireworks"]
