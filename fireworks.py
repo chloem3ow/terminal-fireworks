@@ -160,9 +160,7 @@ def fireworks_display(stdscr):
         except:
             pass
 
-        i = 0
-        while i < len(projectiles):
-            proj = projectiles[i]
+        for proj in projectiles:
             proj.update_position(max_y, max_x)
 
             if (
@@ -171,14 +169,12 @@ def fireworks_display(stdscr):
                 and proj.should_explode(max_y)
             ):
                 proj.explode(projectiles, trails)
-                projectiles.pop(i)
+                projectiles.remove(proj)
                 continue
 
             if not proj.active:
-                projectiles.pop(i)
+                projectiles.remove(proj)
                 continue
-
-            i += 1
 
         current_time = time()
         trails[:] = [
