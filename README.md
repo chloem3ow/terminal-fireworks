@@ -18,8 +18,10 @@ A simple python script which displays fireworks in your terminal.
 
 ## Installation
 This is simplest to install using [pipx](https://github.com/pypa/pipx).
+
 From remote:
 `pipx install git+https://github.com/chloem3ow/terminal-fireworks.git`
+
 Or clone and install from local:
 `pipx install .`
 
