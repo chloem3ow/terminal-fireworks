@@ -26,4 +26,3 @@ classifiers = [
 fireworks = "fireworks:main"
 
 Homepage = "https://github.com/chloem3ow/terminal-fireworks"
-```
