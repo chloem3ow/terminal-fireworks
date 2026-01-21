@@ -16,7 +16,15 @@ A simple python script which displays fireworks in your terminal.
 - Python 3.6 or higher
 - A terminal which supports the curses module
 
+## Installation
+This is simplest to install using pipx.
+From remote:
+`pipx install git+https://github.com/chloem3ow/terminal-fireworks.git`
+Or clone and install from local:
+`pipx install .`
+
 ## Usage
+Run `fireworks` in your terminal.
 
 ### Controls
 - `]` Increase fireworks per second
@@ -27,7 +35,6 @@ A simple python script which displays fireworks in your terminal.
 - `q`, `Q`, `ctrl-C` Quit
 
 ### Command Line Options
-
   - `-h`, `--help` show help message and exit
   - `--framerate` Frames per second (default: 30)
   - `--gravity` Gravity strength (default: 0.2)
