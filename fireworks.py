@@ -306,6 +306,9 @@ def main(stdscr):
 
 
 if __name__ == "__main__":
+    main_wrapper()
+
+def main_wrapper():
     args = parse_args()
     framerate = args.framerate
     gravity = args.gravity

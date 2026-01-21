@@ -23,7 +23,7 @@ classifiers = [
 ]
 
 [project.scripts]
-fireworks = "fireworks:main"
+fireworks = "fireworks:main_wrapper"
 
 Homepage = "https://github.com/chloem3ow/terminal-fireworks"
 ```
