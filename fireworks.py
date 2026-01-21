@@ -285,8 +285,6 @@ def main(stdscr):
         print("Error: This script requires a TTY with curses support.")
         return
 
-    global framerate, gravity, decay_time, explosion_height, gap_between_fireworks, fragment_range, speed, deltaV, force, ui_toggled
-
     stdscr.clear()
     curses.curs_set(False)
     curses.start_color()
@@ -307,6 +305,8 @@ def main(stdscr):
         pass
 
 def main_wrapper():
+    
+    global framerate, gravity, decay_time, explosion_height, gap_between_fireworks, fragment_range, speed, deltaV, force, ui_toggled
     args = parse_args()
     framerate = args.framerate
     gravity = args.gravity
