@@ -286,18 +286,6 @@ def main(stdscr):
         return
 
     
-    args = parse_args()
-    ramerate = args.framerate
-    gravity = args.gravity
-    decay_time = args.decay_time
-    explosion_height = args.explosion_height
-    gap_between_fireworks = args.gap
-    fragment_range = args.fragments
-    speed = args.speed
-    deltaV = args.delta_v
-    force = args.force
-    ui_toggled = False
-
     stdscr.clear()
     curses.curs_set(False)
     curses.start_color()
@@ -319,7 +307,16 @@ def main(stdscr):
 
 
 if __name__ == "__main__":
-    main_wrapper()
+    args = parse_args()
+    framerate = args.framerate
+    gravity = args.gravity
+    decay_time = args.decay_time
+    explosion_height = args.explosion_height
+    gap_between_fireworks = args.gap
+    fragment_range = args.fragments
+    speed = args.speed
+    deltaV = args.delta_v
+    force = args.force
+    ui_toggled = False
 
-def main_wrapper():
     curses.wrapper(main)
