@@ -17,7 +17,15 @@ A simple python script which displays fireworks in your terminal.
 - A terminal which supports the curses module
 
 ## Installation
-This is simplest to install using [pipx](https://github.com/pypa/pipx).
+### Arch Linux
+This package can be installed from the [AUR](https://aur.archlinux.org/packages/terminal-fireworks).
+
+`yay -S terminal-fireworks`
+(or any other AUR package manager)
+
+
+### Other Distros 
+On other distros, for now this can be installed using [pipx](https://github.com/pypa/pipx).
 
 From remote:
 `pipx install git+https://github.com/chloem3ow/terminal-fireworks.git`
@@ -48,8 +56,11 @@ Run `fireworks` in your terminal.
   - `--speed` Firework launch speed (default: 1.0)
   - `--delta-v` Sets how much the rocket can accelerate (default: 3.0)
 
-  ## Licence
-  Distributed under MIT licence. See [LICENSE](LICENSE) for more details.
+## Issues
+If you run into a bug or have a feature request, please open a github issue.
 
-  ## Acknowledgements
-  Inspired largely by [terminal-rain](https://github.com/rmaake1/terminal-rain-lightning).
+## Licence
+Distributed under MIT licence. See [LICENSE](LICENSE) for more details.
+
+## Acknowledgements
+Inspired largely by [terminal-rain](https://github.com/rmaake1/terminal-rain-lightning).
