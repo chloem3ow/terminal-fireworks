@@ -14,7 +14,7 @@ A simple python script which displays fireworks in your terminal.
 
 ## Requirements
 - Python 3.6 or higher
-- A terminal which supports the curses module
+- A terminal which supports curses
 
 ## Installation
 ### Arch Linux
